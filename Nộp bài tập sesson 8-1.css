@@ -1,0 +1,20 @@
+.a1{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+.a2{
+    width: calc( 50% - 2px);
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.a3{
+    width: calc( 100% - 2px);
+}
+@media screen and ( max-width: 480px) {
+    .a2 { width: calc( 100% - 2px );}
+}
+    
