@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.a1{
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+.a2{
+    color: aliceblue;
+background-color: black;
+width: 50%;
+height: 50px;
+line-height: 50px;
+padding-left: 10px;
+
+}
+@media screen and (max-width: 1024px) {
+    .a2{
+        width: 100%;
+    }
+}
