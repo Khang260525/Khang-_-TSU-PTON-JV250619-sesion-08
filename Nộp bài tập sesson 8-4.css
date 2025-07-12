@@ -1,0 +1,49 @@
+.header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.px{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 137, 139);
+    height: 400px;
+    font-size: 80px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+.a1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    gap: 10px;
+
+}
+.a2{
+    width: calc(50% - 10px);
+    background-color: rgb(178, 182, 185);
+    text-align: center;
+}
+.a3 {
+    width: calc(100% - 10px) ;
+
+}
+@media  screen and (max-width: 1024px)
+{.a2 {width: calc(100% - 10px) }
+
+};
+    
