@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.nav1{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.mo{opacity: 0.3;}
+.input1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.light{
+    position: relative;
+    top: -14px;
+    right: 10px;
+}
+.h1{
+    background-color: bisque;
+    width: 400px;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 25px;
+    
+    
+}
+.oo{
+    padding-left: 10px ;
+}
+.vo{
+    margin-left: 25px;
+}
+.ii{
+    padding-right:12px ;
+}
+.o10{  display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(241, 246, 246);
+    border: solid rgb(44, 42, 167);
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+  
+}
+.i10{
+    color:  rgb(44, 42, 167);
+}
+.i11{
+    padding: 0 7px;
+}
+.o14{ position: relative;
+    left: 190px;
+    bottom: 38px;
+  
+}
+.o15{
+    background-color: blue;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.o16{
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-image:  url(./ảnh/bg.png)
+}
+.o17{
+    font-size: 30px;
+}
+.o18{ position: relative;
+    border-radius: 5px;
+    left: 450px;
+    bottom: 40px;
+    width: 280px;
+    height: 50px;
+    padding: 0 5px;
+}
+.o19{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(38, 37, 37);
+    position: relative;
+    bottom: 83px;
+    left: 630px;
+    
+}
+.o20{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.o21{
+     list-style: none;
+}
